@@ -1,0 +1,113 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": ["hello thanks for checking in", "hi there, how can i help you"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "good bye", "see you later"],
+            "responses": ["have a nice time, welcome back again", "bye bye"],
+            "context": [""]
+        },
+        {
+            "tag": "myname",
+            "patterns": ["what is your name?","your name?", "what does it mean", "who are you"],
+            "responses": ["My name is Zeal and I'm a chatbot, If you are wondering what it means, It means Curiosity"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": ["  "],
+            "responses": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"],
+            "context": [""]
+        },
+
+        {
+            "tag": "name",
+            "patterns": ["my name is ", "I'm ","I am"],
+            "responses": ["Oooh great to meet you . How may I assist you ", "Oh, I'll keep that in mind "],
+            "context": [""]
+        },
+
+        {
+            "tag": "fav",
+            "patterns": ["I need a favour", "can you help me"],
+            "responses": ["Well, go ahead and name it i see whether i can be able to help"],
+            "context": [""]
+        },
+        {
+            "tag": "need",
+            "patterns": ["I need you", "All I need is you","I want you"],
+            "responses": ["Yes I'm here to assist you"],
+            "context": [""]
+        },
+        {
+            "tag": "creator",
+            "patterns": ["who created you?", "who made you?", "who developed you?"],
+            "responses": ["I was created by team PERSEVERANCE from MGIT"],
+            "context": [""]
+        },
+        {
+            "tag": "birth",
+            "patterns": ["when were you born?","when were you created?"],
+            "responses": ["I was created on 26/9/2023 in D003 Lab at MGIT"],
+            "context": [""]
+        },
+
+        {
+            "tag":"act test",
+            "patterns":["Mines and Minerals (Development and Regulation) Act, 1957  this is the central legislation that regulates the mining sector in India. It governs the allocation of mineral concessions, mineral rights, and the regulation of mining operations. The act has been amended several times to keep pace with changing requirements and environmental concerns.","Mines and Minerals (Development and Regulation) Act","1957","mineral concessions"],
+            "responses":["Mines and Minerals (Development and Regulation) Act, 1957:\n this is the central legislation that regulates the mining sector in India. It governs the allocation of mineral concessions, mineral rights, and the regulation of mining operations. The act has been amended several times to keep pace with changing requirements and environmental concerns."],
+            "context":[""]
+
+            },
+
+            {
+            "tag":"act coal",
+            "patterns":[" Mineral Conservation and Development Rules"," 1988","mineral conservation ","sustainable development of minerals"],
+            "responses":["Mineral Conservation and Development Rules, 1988:\nThese rules, framed under the Mines and Minerals (Development and Regulation) Act, provide guidelines for the conservation and sustainable development of minerals. They cover various aspects of mining, including reconnaissance, prospecting, and mining operations."],
+            "context":[""]
+
+            },
+
+            {
+            "tag":"act test2",
+            "patterns":["Coal Mines (Special Provisions) Act "," 2015","allocation of coal blocks","transparency"],
+            "responses":["Coal Mines (Special Provisions) Act, 2015:\nThis act deals specifically with the allocation of coal blocks for mining and the auction of coal mines. It was enacted to address issues related to coal block allocations and transparency in the coal mining sector.."],
+            "context":[""]
+
+            },
+
+            {
+            "tag":"act test3",
+            "patterns":["National Mineral Policy "," 2019"," welfare of mining-affected people. ","community development"],
+            "responses":["National Mineral Policy, 2019: \n Although not an act, the National Mineral Policy provides a framework for the development and regulation of the mineral sector in India. It emphasizes sustainable mining practices, community development, and the welfare of mining-affected people."],
+            "context":[""]
+
+            },
+
+            {
+            "tag":"act test2",
+            "patterns":["The Mineral (Auction) Rules "," 2015"," auction of mineral blocks"],
+            "responses":["The Mineral (Auction) Rules, 2015:\n These rules were formulated to conduct the auction of mineral blocks, ensuring transparency and competitiveness in the allocation process. It applies to the auction of various minerals, including iron ore and bauxite."],
+            "context":[""]
+
+            },
+
+            {
+            "tag":"inquery",
+            "patterns":["how are you "],
+            "responses":["I'm doing great!"],
+            "context":[""]
+
+            }
+                ]
+}
